@@ -1,0 +1,16 @@
+{
+  "name": "error-zip-mtcute",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@mtcute/bun": "^0.22.3",
+    "@mtcute/dispatcher": "^0.22.2"
+  }
+}
