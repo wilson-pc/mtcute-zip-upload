@@ -1,6 +1,5 @@
-import { TelegramClient } from '@mtcute/node'
+import { TelegramClient } from '@mtcute/bun'
 import { Dispatcher, filters } from '@mtcute/dispatcher'
-import 'dotenv/config'
 
 const apiId = Number(process.env.API_ID)
 const apiHash = process.env.API_HASH

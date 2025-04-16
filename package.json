@@ -1,27 +1,16 @@
 {
   "name": "error-zip-mtcute",
-  "private": true,
+  "module": "index.ts",
   "type": "module",
-  "scripts": {
-     "dev": "node --loader ts-node/esm src/index.ts",
-        "build": "tsc",
-    "start": "node dist/index.js"
-  },
+  "private": true,
   "devDependencies": {
-    "@types/bun": "latest",
-    "@types/node": "^22.14.1",
-    "nodemon": "^3.1.9",
-    "sucrase": "^3.35.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
     "@mtcute/bun": "^0.22.3",
-    "@mtcute/dispatcher": "^0.22.2",
-    "@mtcute/node": "^0.22.3",
-    "dotenv": "^16.5.0"
+    "@mtcute/dispatcher": "^0.22.2"
   }
 }
